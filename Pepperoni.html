@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="productpage.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+<div id="mainWrapper">
+  <header> 
+    <!-- This is the header content. It contains Logo and links -->
+    <div id="logo"> <!-- <img src="logoImage.png" alt="sample logo"> --> 
+      <!-- Company Logo text -->
+        <a href="index.html" title="Home"></a>
+       </div>
+    
+  </header>
+  <section class="sidebar"> 
+      <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
+<!--  <input type="text"  id="search" value="search">-->
+      <div id="menubar">
+        <nav class="menu">
+
+          <ul>
+            <!-- List of links under menuset 1 -->
+            <li><a href="pizza-mainpage.html"x title="Link">Pizzas</a></li>
+            <li><a href="drink.html" title="Link">Drinks</a></li>
+            <li><a href="#" title="Link">Deals</a></li>
+            
+          </ul>
+        </nav>
+<!--        <nav class="menu">-->
+            
+      
+      </div>
+    </section>
+  <div id="content">
+    <div id= "sectionHeading"><h3>Product Page</h3></div> 
+    <section class="mainContent">
+      <div class="productRow"><!-- Each product row contains info of 3 elements -->
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="https://img.freepik.com/free-photo/thinly-sliced-pepperoni-is-popular-pizza-topping-american-style-pizzerias-isolated-white-background-still-life_639032-229.jpg?w=1380&amp;t=st=1696960979~exp=1696961579~hmac=b77fe2b971cc47ce44c1a94cb6dedf39b4d9ede29f32a087c8be514b69aa31c0g"></div>
+          <p class="price">$50</p>
+          <p class="productContent">Pepperoni Pizza </p>
+          <p class="productBrief">Freshly baked, oven hot pizza prepared with our secret family recipe</p>
+          <a href="order-confirmation.html"><input type="button" name="button" value="CLICK AND COLLECT" class="buyButton"></a>
+        </article>
+      </div>
+    </section>
+    
+    <section class="customization"> 
+
+        <div class="Quantity">
+            <h4>How many?</h4>
+            <input type="number" name="Quantity" id="Quantity"/>
+        
+            <label for="Quantity"></label>
+        </div>
+       
+        <div id="addToppings"><h4>Toppings</h4>
+
+                <ul>
+                 <li><input type="checkbox" name="Toppings" id="Toppings"/>
+                <label for="Onion">Onion</label></li>
+
+                <li><input type="checkbox" name="Toppings" id="Onion" />
+                <label for="Onion">Parmesean</label></li>
+
+                <li><input type="checkbox" name="Toppings" id="Onion" />
+                <label for="Onion">Sausage</label></li>
+
+                <li><input type="checkbox" name="Toppings" id="Onion" />
+                <label for="Onion">Spinach</label></li>
+
+                <li><input type="checkbox" name="Toppings" id="Onion" />
+                <label for="Onion">Chilli powder</label></li>
+
+                <li><input type="checkbox" name="Toppings" id="Onion" />
+                <label for="Onion">Mushrooms</label></li>
+                </ul>
+
+         </div>
+        <br>
+        <div id="pizzaCrust"> <h4>Crust</h4> 
+        
+        
+            <ul>
+                <li><input type="checkbox" name="Crust" id="Crust"/>
+               <label for="Onion">Deep Pan</label></li>
+
+               <li><input type="checkbox" name="Crust" id="Crust" />
+               <label for="Onion">Italian Thin</label></li>
+
+               <li><input type="checkbox" name="Crust" id="Crust" />
+               <label for="Onion">Normal</label></li>
+
+        </div>
+
+        <br>
+
+        <div id="sides"> <h4>Sides</h4> 
+        
+        
+            <ul>
+                <li><input type="checkbox" name="Crust" id="Sides"/>
+               <label for="Sides">Fries</label></li>
+
+               <li><input type="checkbox" name="Crust" id="Sides" />
+               <label for="Sides">5 Nuggets </label></li>
+
+               <li><input type="checkbox" name="Crust" id="Sides" />
+               <label for="Sides">Beans</label></li>
+
+               <li><input type="checkbox" name="Crust" id="Sides" />
+                <label for="Sides">Coleslaw</label></li>
+
+        </div>
+        
+
+        
+    </section>
+    
+     
+
+    
+
+    
+  </div>
+  <footer> 
+    <div class="footerNote">
+      <p>Visit us on Monday - Saturday from 9am - 9pm.</p>
+    </div>
+    <div class="footerlinks">
+      <p><a href="#" title="Link"> Return to top </a></p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

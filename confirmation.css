@@ -1,0 +1,1097 @@
+@charset "utf-8";
+/* Global Styles */
+a:hover {
+	color: rgba(255,255,255,1.00);
+}
+body{
+    position:relative;
+    overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: white;
+}
+
+ .mainContent #icon{
+
+	text-decoration: none;
+	font-size: 28px;
+
+}
+/*header*/
+header {
+	font-family: 'Helvetica', sans-serif;
+	color: orangered;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+/* Logo placeholder*/
+#logo {
+	float: left;
+	padding-top: 0px;
+    margin-left: 0px;
+    margin-top:0px;
+	padding-bottom: 50px;
+	width: 100%;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: white;
+    background-image: url("trypiz.svg");
+    background-size:contain;
+    background-repeat: no-repeat
+}
+
+#confirmedIcon{
+	width:500px;
+	
+}
+
+
+#confirmedIcon img{
+	position:relative;
+	width: 300px;
+
+}
+/* adress of store */
+#droppinLocation .address {
+	position: relative;
+	
+}
+
+
+
+/* call to action paragraph */
+#droppinLocation p {
+
+	position:relative;
+	left:0px;
+	font-size: 12px;
+	color:orangered;
+	font-family: 'Helvetica Neue';
+
+}
+
+#droppinLocation img{
+
+	position: relative;
+}
+
+/* order confirmation */
+#content h2{
+	font-family: 'Helvetica Neue';
+	color:orangered;
+}
+
+/* page or section title */
+#content h3{
+
+	font-family: 'Helvetica Neue';
+	color:white;
+}
+
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow-x: hidden;
+	padding-top: 1px;
+}
+
+/* Sidebar */
+#content .sidebar {
+	font-family: 'Helvetica Neue', sans-serif;
+	color: rgba(146,146,146,1.00);
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: white;
+    border-radius:21px;
+	padding-top: 36px;
+	height: 784px;
+}
+/* main content of the site */
+#content .mainContent {
+    padding-top:20px;
+	float: left;
+	width: 100%;
+	text-align: center;
+    font-family: "Helvetica Neue", "sans-serif";
+    text-decoration: overline;
+    font-weight: 500;
+    color: orangered;
+    background-color:white;
+	padding-left: 4%;
+}
+/*menubar's properties for menus in sidebar */
+#content .sidebar #menubar {
+    border: 10px;
+	text-align: left;
+	color: orange;
+	position: relative;
+	left: 0%;
+    margin:0 auto;
+}
+/* Search field in sidebar */
+
+#sectionHeading{
+    margin:0px auto;
+    text-align: center;
+    font-family: "Helvetica";
+    color:white;
+    border-radius: 10px;
+/*    padding-top: ;*/
+    background-color: orangered;  
+}
+#content .sidebar #search {
+	width: 100%;
+	border-radius: 10px;
+	height: 22px;
+    border-style: solid;
+    border-color:lightcoral;
+	text-align: center;
+	color: rgba(208,207,207,1.00);
+	font-size: 14px;
+	margin-top: 15px;
+}
+/* Whole page content */
+#mainWrapper {
+	width: 100%;
+	
+    
+}
+/*menu elements */
+.menu ul li {
+    
+	list-style-type: none;
+	font-size: x-large;
+    text-align: center;
+	position: relative;
+	left: -57px;
+    align-self: center;
+    padding-left: 50px;
+	padding-top: 12px;
+    display: inline;
+}
+
+/* Product rows for catalog */
+#content .mainContent .productRow {
+	overflow: auto;
+	color: rgba(146,146,146,1.00);
+}
+
+
+/* Each product Information in the catalog */
+.mainContent .productRow .productInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 22%;
+}
+/* Prices of a products in catalog */
+.productRow .productInfo .price {
+	font-family: 'Helvetica Neue', sans-serif;
+	color: orangered;
+	font-size: 22px;
+	position: relative;
+	top: -20px;
+}
+/* Content holder for products in catalog*/
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -37px;
+	font-size: 14px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-style: normal;
+	color: orangered;
+	white-space: pre-wrap;
+}
+/* Buy button for products in catalog */
+.productRow .productInfo .buyButton {
+	position: relative;
+	top: -48px;
+	width: 84%;
+	background-color: darkorange;
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+    font-family: "Helvetica Neue", sans-serif;
+	border-style: none;
+    border-radius: 14px;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+/* footer */
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgba(208,207,207,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+/*Each footer content */
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: rgba(255,255,255,1.00);
+	text-align: justify;
+}
+/* Links in footer */
+footer div a {
+	color: rgba(146,146,146,1.00);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+/* Product's images in catalog */
+.productInfo div img {
+	width: 100%;
+	border-style:none;
+    border-width: 2px;
+	border-color: orange;
+    border-radius: 21px;
+}
+/*Links in sidebar */
+.sidebar #menubar .menu ul li a {
+    padding-top: 35px;
+    margin-left: 75px;
+    font-family:  'Helvetica Neue',  'sans-serif';
+	color: orangered;
+	text-decoration:none;
+    display:inline-block;
+    
+}
+.sidebar #menubar .menu ul li a:hover {
+	color: black;
+	text-decoration: none;
+    
+}
+/* Menu headings in sidebar */
+#menubar .menu h2 {
+	font-size: 14px;
+}
+/*Links under menus in sidebar */
+#menubar .menu ul li a {
+	font-size: 14px;
+}
+/* Menus in sidebar */
+.sidebar #menubar .menu {
+	margin-bottom: 29px;
+}
+/* buttton for continue shopping */
+
+
+
+#Continue a {
+	color: white;
+	
+}
+
+#Continue p {
+	background-color: orangered;
+	color:white;
+	border-radius: 10px;;
+	text-align:center;
+	
+}
+
+
+
+
+
+
+/* Container for links in footer */
+footer .footerlinks {
+	margin-top: -15px;
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+	a:hover {
+		color: rgba(255,255,255,1.00);
+	}
+	body{
+		position:relative;
+		overflow-x: hidden;
+		background-color:white;
+	}
+	
+	
+	/*header*/
+	header {
+		font-family: 'Helvetica', sans-serif;
+		color: orangered;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	
+	#logo {
+		float: none;
+		position:relative;
+		overflow-x: hidden;
+		left:500px;
+		top:20px;
+		padding-top: 0px;
+		margin-left: 0px;
+		margin-top:0px;
+		padding-bottom: 50px;
+		width: 100%;
+		text-align: center;
+		color: rgba(255,255,255,1.00);
+		background-color: white;
+		background-image: url("trypiz.svg");
+		background-size:contain;
+		background-repeat: no-repeat
+	}
+
+	#mainWrapper {
+		width: 100%;
+		
+		
+	}
+	/*menu elements */
+	.menu ul li {
+		
+		list-style-type: none;
+		font-size: x-large;
+		text-align: center;
+		position: relative;
+		left: 220px;
+		align-self: center;
+		padding-left: 50px;
+		padding-top: 12px;
+		display: inline;
+	}
+
+/* confirmation icon */
+#confirmedIcon{
+	position:relative;
+	padding-top:30px ;
+	left:-400px;
+	top:-250px;
+	width: 100%;
+}
+
+#content .orderNumber{
+
+	font-size:17px;
+	top:7px;
+	left:470px;
+	color:orange;
+	padding-bottom: 20px;
+}
+
+
+#confirmedIcon img{
+		position:relative;
+		right:300px;
+		width: 300px;
+	
+	}
+
+
+	/* adress of store */
+#droppinLocation .address {
+	position: relative;
+	
+}
+
+
+
+/* call to action paragraph */
+#droppinLocation p {
+
+	position:relative;
+	left:70px;
+	top:0px;
+	font-size: 12px;
+	font-weight: 470;
+	text-align: center;
+	color:orangered;
+	font-family: 'Helvetica Neue';
+	padding-bottom: 25px;
+
+}
+
+
+
+
+
+
+
+#droppinLocation .address{ 
+
+ font-weight:200;
+ position: relative;
+ left:-40px;
+ font-weight: 500;
+ top:-55px;
+}
+#droppinLocation img{
+
+	position: relative;
+	left:463px;
+	top:-20px;
+}
+
+/* order confirmation */
+#content h2{
+	padding-top:30px;
+	font-family: 'Helvetica Neue';
+	color:orangered;
+	position:relative;
+	text-align: justify;
+	left:470px;
+
+}
+
+/* page or section title */
+#content h3{
+
+	font-family: 'Helvetica Neue';
+	color:white;
+	position:relative;
+	text-align: justify;
+	left:468px;
+}
+
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow: hidden;
+	padding-top: 1px;
+}
+
+
+
+
+
+
+#Continue {
+
+		position: relative;
+		top:-230px;
+		font-family: 'Helvetica Neue';
+		text-decoration: none;
+
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+    
+
+/* search field in sidebar */
+#content .sidebar #search {
+	display: none;
+}
+/* sidebar */
+    
+
+
+#logo{
+
+
+	position: relative;
+	top:20px;
+	left:150px;
+}
+#droppinLocation .address{
+
+	position: relative;
+	left:130px;
+}
+#droppinLocation p{
+
+	position: relative;
+	top:80px;
+	
+}
+
+#droppinLocation img{
+
+	position: relative;
+	top:85px;
+	left:220px;
+}
+
+
+
+
+#confirmedIcon img{
+
+
+	position:relative;
+	left:170px;
+	width:20%;
+	top:-140px;
+	padding-bottom: 5px;
+}
+
+
+#Continue {
+	text-decoration:none;
+	position: relative;
+	top:-40px;
+	margin-top: 10px;
+	padding-bottom: 30px;
+	font-family: 'Helvetica Neue';
+}
+
+
+
+
+
+/*The sidebar and maincontent of page */
+#content {
+	position: relative;
+	top: -22px;
+	width: 100%;
+	overflow: hidden;
+}
+/*menu headings in sidebar */
+#menubar .menu h2 {
+	display: inline;
+	font-size: medium;
+	padding-right: 6%;
+}
+/* Unordered List of links */
+#menubar .menu ul {
+	display: inline;
+    padding-right: 50px;
+}
+/*list elements */
+#menubar .menu ul li {
+	display: inline;
+	font-size: small;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+/*The link to be hidden in tablet view */
+.sidebar #menubar .menu ul .notimp {
+	display: none;
+}
+/* menus in sidebar */
+.sidebar #menubar .menu {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 16px;
+}
+/*menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -7%;
+	overflow: hidden;
+	width: 100%;
+    margin:0 auto;
+	padding-top: 0px;
+    margin-bottom: 0px;
+}
+/* offer banners content */
+#mainWrapper #offer p {
+	font-size: small;
+
+}
+/* main content region of page */
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 10px;
+}
+/* Prices of products in catalog view */
+.productRow .productInfo .price {
+	font-size: 21px;
+    font-family: 'Helvetica Neue' , 'sans-serif';
+    color:orangered;
+
+}
+/* Content holders in catalog view */
+.productRow .productInfo .productContent {
+	font-size: 19px;
+    font-family: 'Helvetica Neue';
+   
+    
+}
+    
+.productInfo div img {
+        width:50%;
+    }
+/* Buy buttons in catalog view */
+.productRow .productInfo .buyButton {
+	font-size: 15px;
+    
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: center;
+	left: 0%;
+	padding-bottom: 19px;
+}
+/* Container for each footer divisions */
+#mainWrapper footer div {
+	width: 44%;
+	text-align: justify;
+	font-size: 15px;
+}
+/* Links in footer */
+.footerlinks p a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+	padding-right: 35px;
+}
+/* Footer region */
+#mainWrapper footer {
+	padding-left: 16px;
+	overflow: hidden;
+    background-color: coral;
+}
+/* Links in header */
+header #headerLinks a {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+/* Offer- Text banner */
+#mainWrapper #offer {
+	padding-left: 22%;
+}
+/* Paragraphs in footer */
+footer .footerlinks p {
+	display: inline;
+}
+}
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+/*Container for links in header */
+#mainWrapper header #headerLinks {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(190,190,190,1.00);
+	padding-bottom: 21px;
+}
+/* Logo placeholder*/
+#mainWrapper header #logo {
+	width: 100%;
+    margin-top:20px;
+    margin-left:70px;
+}
+/* Links in header */
+header #headerLinks a {
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+/*Offer - Text Banner */
+#mainWrapper #offer {
+	padding-left: 0px;
+	text-align: center;
+}
+/* Menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -8%;
+	text-align: center;
+}
+/*Menu headings in sidebar */
+#menubar .menu h2 {
+	width: 100%;
+	display: block;
+}
+/* Each product in catalog view */
+.mainContent .productRow .productInfo {
+	width: 100%;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	left: -2%;
+}
+#mainWrapper footer div {
+	width: 100%;
+	margin-left: -16px;
+	text-align: justify;
+	padding-bottom: 16px;
+	overflow: auto;
+}
+/* Unordered list for menu elements */
+.menu ul {
+	position: relative;
+	padding-left: 0%;
+}
+    
+ #menubar .menu ul li a{
+        padding: 0px;
+        display: inline;
+        padding-left: 5px;
+        width: 1%;
+        text-align: center;
+    }
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	padding-left: 8%;
+}
+/* Main content which excludes the sidebar */
+#mainwrapper #content .mainContent {
+	margin-top: -81px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+}
+
+@media screen and (max-width:700px) {
+    
+
+/* search field in sidebar */
+#content .sidebar #search {
+	display: none;
+}
+/* sidebar */
+    
+#content .sidebar {
+	float: none;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding-left: 12%;
+	padding-top: 0px;
+}
+/* horizontal separators in sidebar */
+#content .sidebar hr {
+	display: none;
+}
+    
+/*The sidebar and maincontent of page */
+#content {
+	position: relative;
+	top: -22px;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+#content .orderNumber {
+
+
+	position: inherit;
+	
+}
+/*menu headings in sidebar */
+#menubar .menu h2 {
+	display: inline;
+	font-size: medium;
+	padding-right: 6%;
+}
+/* Unordered List of links */
+#menubar .menu ul {
+	display: inline;
+    padding-right: 50px;
+}
+/*list elements */
+#menubar .menu ul li {
+	display: inline;
+	font-size: small;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+/*The link to be hidden in tablet view */
+.sidebar #menubar .menu ul .notimp {
+	display: none;
+}
+/* menus in sidebar */
+.sidebar #menubar .menu {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 16px;
+}
+/*menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -7%;
+	overflow: hidden;
+	width: 100%;
+    margin:0 auto;
+	padding-top: 0px;
+    margin-bottom: 0px;
+}
+/* offer banners content */
+#mainWrapper #offer p {
+	font-size: small;
+
+}
+/* main content region of page */
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 10px;
+}
+/* Prices of products in catalog view */
+.productRow .productInfo .price {
+	font-size: 21px;
+    font-family: 'Helvetica Neue' , 'sans-serif';
+    color:orangered;
+
+}
+/* Content holders in catalog view */
+.productRow .productInfo .productContent {
+	font-size: 19px;
+    font-family: 'Helvetica Neue';
+   
+    
+}
+    
+.productInfo div img {
+        width:50%;
+    }
+/* Buy buttons in catalog view */
+.productRow .productInfo .buyButton {
+	font-size: 15px;
+    
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: center;
+	left: 0%;
+	padding-bottom: 19px;
+}
+/* Container for each footer divisions */
+#mainWrapper footer div {
+	width: 44%;
+	text-align: justify;
+	font-size: 15px;
+}
+/* Links in footer */
+.footerlinks p a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+	padding-right: 35px;
+}
+/* Footer region */
+#mainWrapper footer {
+	padding-left: 16px;
+	overflow: hidden;
+    background-color: coral;
+}
+
+
+/* Paragraphs in footer */
+footer .footerlinks p {
+	display: inline;
+}
+
+}
+	
+
+/* media query mobile screens */
+@media only screen and (min-device-width: 375px) {
+
+
+
+    #logo{
+		float:none;
+        position: relative;
+        top:25px;
+		left:-47px;
+		padding-right: 10px;
+		
+    }
+
+	body{
+
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+    #menubar .menu ul {
+        display: inline;
+		position:relative;
+		left:0px;
+		top:-7px;
+        padding-right: 0px;
+        width:10%;
+    } 
+   
+
+
+
+
+
+	#menubar .menu li{
+
+		width: 5%;
+		position: relative;
+		display: inline;
+		
+	}
+}
+
+
+
+
+
+#confirmedIcon{
+	width:500px;
+	
+}
+
+
+#confirmedIcon img{
+	position:relative;
+	top:-130px;
+	left:90px;
+	padding-left: 10px;
+	width: 89px;
+
+}
+
+
+
+/* adress of store */
+#droppinLocation .address {
+	position: relative;
+	left:-5px;
+	text-align:center;
+	top:100px;
+	
+}
+
+
+
+/* call to action paragraph */
+#droppinLocation p {
+
+	position:relative;
+	left:-3px;
+	text-align: center;
+	top:100px;
+	font-size: 12px;
+	color:orangered;
+	font-family: 'Helvetica Neue';
+
+}
+
+
+#droppinLocation .location{
+
+	position: relative;
+	left:128px;
+	top:100px;
+}
+
+/* order confirmation */
+#content h2{
+	font-family: 'Helvetica Neue';
+	color:orangered;
+	position:relative;
+	left:30px;
+	text-align: center;;
+	font-size: 19px;
+	width:80%;
+}
+
+/* order or customer number */
+#content h3{
+
+	font-family: 'Helvetica Neue';
+	color:white;
+	position: relative;
+	font-size: 14px;
+	text-align: center;
+	left:3px;
+	top:-1px;
+}
+
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow-x: hidden;
+	
+}
+
+#content .orderNumber{
+
+	font-size:17px;
+	top:-10px;
+	color:orange;
+	padding-bottom: 20px;
+}
+
+
+#Continue {
+	position: relative;
+	top: -10px;
+	padding-bottom: 10px;
+	font-family: 'Helvetica Neue';
+	text-decoration: none;
+	
+
+
+
+}
+
+
+
+
+
+
+
+  
+}
+
+
+
+
+	   
+
+
+
+
+
+
+
+				   
+
+
+
+	
